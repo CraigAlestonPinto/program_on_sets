@@ -1,0 +1,10 @@
+E = {8, 0, 2, 4, 6}
+N = {1, 2, 3, 4, 5, 7}
+a = {}
+
+print('The Union is',E.union(N))
+a = E.intersection(N)
+
+print('The intersection of both the sets is ',E.intersection(N))
+print('The difference is ',E-N)
+print('The symmetric difference is ',(E.union(N))- a)
